@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="10dp"
+		android:gravity="center_horizontal"
+		android:textSize="18dp"
+		android:textStyle="bold"
+		android:text="잃어버린 물건의 종류를 선택해주세요!"/>
+	
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_weight="1">
+			
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+				
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_bag"
+				android:onClick="whatBag"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_etc"
+				android:onClick="whatEtc"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_backpack"
+				android:onClick="whatBackpack"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_doc"
+				android:onClick="whatDoc"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_shopping"
+				android:onClick="whatShopping"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_clothes"
+				android:onClick="whatClothes"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_wallet"
+				android:onClick="whatWallet"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_book"
+				android:onClick="whatBook"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_file"
+				android:onClick="whatFile"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_what_phone"
+				android:onClick="whatPhone"/>
+			
+		</LinearLayout>
+		
+	</ScrollView>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"
+		android:background="#FFFFFF"
+		android:textStyle="bold"
+		android:text="뒤로가기"
+		android:onClick="WhatBack"/>
+	
+</LinearLayout>

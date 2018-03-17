@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:id="@+id/layout_detail_info"
+    android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_name"/>
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_place"/>
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_from"/>
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_date"/>
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/text_id"/>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:text="Photo View"
+		android:onClick="photo"/>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/call1"
+		android:onClick="call1"/>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:id="@+id/call2"
+		android:onClick="call2"/>
+    
+</LinearLayout>

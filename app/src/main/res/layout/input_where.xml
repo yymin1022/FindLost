@@ -1,0 +1,106 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"
+		android:layout_marginTop="10dp"
+		android:layout_marginEnd="10dp"
+		android:gravity="center_horizontal"
+		android:textSize="16dp"
+		android:textStyle="bold"
+		android:text="물건을 어디에서 잃어버리셨나요?"/>
+	
+	<ScrollView
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		android:layout_weight="1">
+			
+		<LinearLayout
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:orientation="vertical">
+				
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_where_b1"
+				android:onClick="whereB1"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_where_b2"
+				android:onClick="whereB2"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_where_s1"
+				android:onClick="whereS1"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_where_s2"
+				android:onClick="whereS2"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_where_s4"
+				android:onClick="whereS4"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_where_s3"
+				android:onClick="whereS3"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_where_t1"
+				android:onClick="whereT1"/>
+
+			<Button
+				android:layout_width="match_parent"
+				android:layout_height="wrap_content"
+				android:layout_marginTop="5dp"
+				android:layout_marginBottom="5dp"
+				android:background="#FFFFFF"
+				android:text="@string/input_where_t2"
+				android:onClick="whereT2"/>
+			
+		</LinearLayout>
+		
+	</ScrollView>
+	
+	<Button
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_weight="0"
+		android:background="#FFFFFF"
+		android:textStyle="bold"
+		android:text="처음으로"
+		android:onClick="whereBack"/>
+    
+</LinearLayout>

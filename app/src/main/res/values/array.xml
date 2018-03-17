@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<resources>
+		<string-array name="cate">
+			<item>가방</item>
+			<item>기타</item>
+			<item>베낭</item>
+			<item>서류봉투</item>
+			<item>쇼핑백</item>
+			<item>옷</item>
+			<item>지갑</item>
+			<item>책</item>
+			<item>파일</item>
+			<item>핸드폰</item>
+		</string-array>
+		<string-array name="code">
+			<item>시내버스</item>
+			<item>마을버스</item>
+			<item>지하철(1~4호선)</item>
+			<item>지하철(5~8호선)</item>
+			<item>지하철(9호선)</item>
+			<item>코레일</item>
+			<item>법인택시</item>
+			<item>개인택시</item>
+		</string-array>
+	</resources>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">대중교통 분실물 찾기</string>
+	
+    <string name="input_where_b1">시내버스</string>
+	<string name="input_where_b2">마을버스</string>
+	<string name="input_where_s1">지하철(1~4호선)</string>
+	<string name="input_where_s2">지하철(5~8호선)</string>
+	<string name="input_where_s3">코레일</string>
+	<string name="input_where_s4">지하철(9호선)</string>
+	<string name="input_where_t1">법인택시</string>
+	<string name="input_where_t2">개인택시</string>
+	
+	<string name="input_what_bag">가방</string>
+	<string name="input_what_etc">기타</string>
+	<string name="input_what_backpack">베낭</string>
+	<string name="input_what_doc">서류봉투</string>
+	<string name="input_what_shopping">쇼핑백</string>
+	<string name="input_what_clothes">옷</string>
+	<string name="input_what_wallet">지갑</string>
+	<string name="input_what_book">책</string>
+	<string name="input_what_file">파일</string>
+	<string name="input_what_phone">핸드폰</string>
+
+</resources>

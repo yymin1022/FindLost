@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "20870725999",
+    "firebase_url": "https://findlost-e7bca.firebaseio.com",
+    "project_id": "findlost-e7bca",
+    "storage_bucket": "findlost-e7bca.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:20870725999:android:cd83f9a495d374d4",
+        "android_client_info": {
+          "package_name": "com.seouldata.publicapi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "20870725999-89d7cfrk43l0jogdemna8duvt00jnnli.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm-tisicPDSBijKJlIoyvsx3HoxOBFiX4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

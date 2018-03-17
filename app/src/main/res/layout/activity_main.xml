@@ -1,0 +1,58 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:gravity="center"
+    android:orientation="vertical">
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:layout_marginBottom="20dp"
+		android:id="@+id/mainText1"
+		android:textSize="30dp"
+		android:text="대중교통"/>
+	
+	<TextView
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:id="@+id/mainText2"
+		android:textSize="30dp"
+		android:textStyle="bold"
+		android:text="분실물 찾기"/>
+	
+	<LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_gravity="center_horizontal"
+		android:id="@+id/mainButtons"
+		android:layout_marginTop="30dp"
+		android:orientation="horizontal">
+			
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF"
+			android:onClick="search"
+			android:text="물건 찾기"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dp"
+			android:layout_marginRight="5dp"
+			android:background="#FFFFFF"
+			android:onClick="Notification"
+			android:text="알림 설정"/>
+
+		<Button
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:background="#FFFFFF"
+			android:onClick="devinfo"
+			android:text="개발자 정보"/>
+		
+	</LinearLayout>
+    
+</LinearLayout>
